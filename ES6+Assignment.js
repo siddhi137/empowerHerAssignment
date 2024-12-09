@@ -42,7 +42,7 @@ const people = [
 const formattedArray = people.map(({name, address:{city,street:{name: streetName}}})=>{
         return (`${name} lives in ${city} on ${streetName}`);
 });
-    console.log(formattedArray);
+console.log(formattedArray);
  
 
 
